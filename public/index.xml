@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Home</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Home</description>
+    <generator>Hugo -- 0.142.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Jan 2025 19:05:51 -0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tools to Enhance Your Workflow with AI Models</title>
+      <link>http://localhost:1313/posts/tools-to-enhance-workflow-with-ai-models/</link>
+      <pubDate>Sun, 26 Jan 2025 19:05:51 -0600</pubDate>
+      <guid>http://localhost:1313/posts/tools-to-enhance-workflow-with-ai-models/</guid>
+      <description>&lt;p&gt;In the evolving landscape of AI-assisted development, effectively managing and presenting code context to large language models (LLMs) like ChatGPT and Claude is crucial. Several command-line interface (CLI) tools have been developed to streamline this process, enabling developers to consolidate their codebases into single prompts for more efficient AI interactions. Below is a curated list of notable CLI tools designed to assist in this endeavor:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;code2prompt (March 17, 2024)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;A CLI tool that converts your codebase into a single LLM prompt, featuring source tree visualization, prompt templating, and token counting.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

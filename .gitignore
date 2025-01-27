@@ -1,0 +1,32 @@
+*.log
+tmp/
+
+# Generated files by hugo
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+
+# Temporary lock files
+.hugo_build.lock
+
+# Dependency directories (if using npm/yarn)
+/node_modules/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local Netlify folder
+.netlify

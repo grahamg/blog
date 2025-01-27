@@ -1,0 +1,76 @@
+baseURL = "https://grahamg.dev/"
+languageCode = "en-us"
+title = "Home"
+subtitle = "I have SEEN the CONSING!!"
+theme = "PaperMod"
+enableSearch = true
+
+[params]
+  [params.content]
+    email = "ggreenfield@duck.com"
+  [params.homeInfoParams]
+    Title = "λ"
+    Content = """I'm Graham Greenfield, a full-stack developer specializing in Python, Go, C, JavaScript, Java and Clojure, as well as a hobbyist game developer. In this blog, I share my experiences, challenges and journeys.
+    For those interested, my [résumé](https://grahamg.github.io/resume/) is publicly available.
+    """
+
+[services]
+  [services.googleAnalytics]
+  ID = "G-NX769J4LJT"
+
+# Social Icons
+[[params.socialIcons]]
+  name = "twitter"
+  url = "https://twitter.com/ggreenfig"
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/grahamg"
+
+[[params.socialIcons]]
+  name = "bandcamp"
+  url = "https://bandcamp.com/grahamg"
+
+[[params.socialIcons]]
+  name = "mastodon"
+  url = "https://mastodon.sdf.org/@grahamg"
+
+# Search Configuration
+[params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = ["title", "permalink", "summary", "content"]
+
+# Menu Items
+[menu]
+  [[menu.main]]
+  identifier = "posts"
+  name = "Posts"
+  url = "/posts/"
+  weight = 10
+
+  [[menu.main]]
+  identifier = "search"
+  name = "Search"
+  url = "/search/"
+  weight = 20
+
+  [[menu.main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"
+  weight = 30
+
+  [[menu.main]]
+  identifier = "archives"
+  name = "Archives"
+  url = "/archives/"
+  weight = 40
+
+[permalinks]
+  archives = "/archives/"
+  search = "/search/"
