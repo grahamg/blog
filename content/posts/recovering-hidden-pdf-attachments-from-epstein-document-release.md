@@ -1,4 +1,8 @@
-+++ date = '2026-02-05T00:05:51-06:00' draft = false title = 'Recovering Hidden PDF Attachments from the Epstein Document Release' tags = ["AI", "Development", "Claude Code", "Claude Opus"] +++
++++
+date = '2026-02-05T00:05:51-06:00'
+draft = false title = 'Recovering Hidden PDF Attachments from the Epstein Document Release'
+tags = ["AI", "Development", "Claude Code", "Claude Opus"]
++++
 
 Following a [challenge posed by Mahmoud Al-Qudsi](https://neosmart.net/blog/recreating-epstein-pdfs-from-raw-encoded-attachments/), I set out to build an automated pipeline for recovering base64-encoded email attachments buried inside the DoJ's Epstein document release. Here's what I found.
 
