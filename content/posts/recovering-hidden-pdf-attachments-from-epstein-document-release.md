@@ -1,6 +1,7 @@
 +++
 date = '2026-02-05T00:05:51-06:00'
-draft = false title = 'Recovering Hidden PDF Attachments from the Epstein Document Release'
+draft = false
+title = 'Recovering Hidden PDF Attachments from the Epstein Document Release'
 tags = ["AI", "Development", "Claude Code", "Claude Opus"]
 +++
 
