@@ -1,0 +1,47 @@
+title: Home
+description: "λ - I have SEEN the CONSING!!"
+baseurl: ""
+url: "https://grahamg.dev"
+
+# Theme
+theme: jekyll-theme-console
+style: dark
+
+# Author
+author:
+  name: Graham Greenfield
+  email: ggreenfield@duck.com
+
+# Navigation
+header_pages:
+  - index.md
+  - archives.md
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Google Analytics
+google_analytics: G-NX769J4LJT
+
+# Footer content
+footer: 'Find me on: <a href="https://bsky.app/profile/ggreenfig.bsky.social">@ggreenfig.bsky.social</a>'
+
+# Permalink structure
+permalink: /posts/:title/
+
+# Exclude files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - themes/
+  - hugo.toml
+  - archetypes/
+  - public/

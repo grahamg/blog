@@ -1,13 +1,13 @@
 *.log
 tmp/
 
-# Generated files by hugo
-/resources/_gen/
-/assets/jsconfig.json
-hugo_stats.json
-
-# Temporary lock files
-.hugo_build.lock
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+Gemfile.lock
 
 # Dependency directories (if using npm/yarn)
 /node_modules/
