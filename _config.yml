@@ -4,7 +4,6 @@ baseurl: ""
 url: "https://grahamg.github.io"
 
 # Theme
-theme: jekyll-theme-console
 style: dark
 
 # Author
